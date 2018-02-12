@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/idItem1"
+        android:icon="@drawable/ic_add"
+        android:title="Items1"/>
+    <item
+        android:id="@+id/idItem2"
+        android:icon="@drawable/ic_add"
+        android:title="Items2"/>
+    <item
+        android:id="@+id/idItem3"
+        android:icon="@drawable/ic_add"
+        android:title="Items3"/>
+    <item
+        android:id="@+id/idItem4"
+        android:icon="@drawable/ic_add"
+        android:title="Items4"/>
+    <item
+        android:id="@+id/idItem5"
+        android:icon="@drawable/ic_add"
+        android:title="Items5"/>
+</group>
+
+    <item android:title="Section2">
+        <menu>
+            <item
+                android:id="@+id/idItem6"
+                android:icon="@drawable/ic_add"
+                android:title="Items6"/>
+        </menu>
+    </item>
+    <item android:title="Section3">
+        <menu>
+            <item
+                android:id="@+id/idItem7"
+                android:icon="@drawable/ic_add"
+                android:title="Items7"/>
+        </menu>
+    </item>
+</menu>
